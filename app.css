@@ -12,11 +12,10 @@ body {
   font-family: Helvetica, Arial, sans-serif;
   min-height: 100%;
   display: grid;
-  grid-template-rows: 1fr auto;
 }
 
 header {
-  background: #f0293e;
+  background: #cda477;
   color: #fff;
   text-align: center;
 }
@@ -32,10 +31,15 @@ main {
 }
 
 video {
-  width: 200px;
-  /* max-width: 600px; */
+  /* width: 200px; */
+  max-width: 180px;
   display: block;
   margin: 0 auto;
+}
+
+canvas {
+  margin: 0 auto;
+  display: block;
 }
 
 img {

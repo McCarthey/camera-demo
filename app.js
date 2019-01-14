@@ -11,6 +11,8 @@ button.addEventListener('click', event => {
 		stopMediaTracks(currentStream);
 	}
 	const videoConstraints = {};
+	videoConstraints.width = 1280
+	videoConstraints.height = 720
 	if (select.value === '') {
 		videoConstraints.facingMode = 'environment';
 	} else {
@@ -58,7 +60,7 @@ function gotDevices(mediaDevices) {
 }
 
 function screenShot() {
-	canvas.getContext('2d').drawImage(video, 0, 0, 400, 300);
+	canvas.getContext('2d').drawImage(video, 0, 0, 180, 320);
 
 	img.src = canvas.toDataURL("image/png");
 }
