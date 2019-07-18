@@ -21,6 +21,6 @@
   },
   "homepage": "https://github.com/philnash/mediadevices-camera-selection#readme",
   "devDependencies": {
-    "serve": "^6.5.5"
+    "serve": "^11.1.0"
   }
 }
